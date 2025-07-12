@@ -13,7 +13,7 @@ device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 @st.cache_resource
 def load_cnn_model():
     model = CancerTumorCNN().to(device)
-    model.load_state_dict(torch.load("C:/Users/hamee/OneDrive/Desktop/Brain Tumor Detector CNN/datasets/brain_tumor_cnn.pth", map_location=device))
+    model.load_state_dict(torch.load("datasets/brain_tumor_cnn.pth", map_location=device))
     model.eval()
     return model
 
