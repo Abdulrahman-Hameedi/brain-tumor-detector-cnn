@@ -1,5 +1,6 @@
-Training = 'C:/Users/hamee/OneDrive/Desktop/Brain Tumor Detector CNN/datasets/Training'
-Testing  = 'C:/Users/hamee/OneDrive/Desktop/Brain Tumor Detector CNN/datasets/Testing'
+Training = 'PATH/TO/TRAINING/FILE'
+Testing  = 'PATH/TO/TESTING/FILE'
+
 
 label_map = {
     0: 'glioma',
